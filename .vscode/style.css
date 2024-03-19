@@ -12,6 +12,7 @@
   --suface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  
 }
 
 .light {
@@ -22,6 +23,7 @@
   --suface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  
 }
 
 body {
@@ -46,7 +48,7 @@ body * {
   padding: 24px;
 }
 #profile img {
-  width: 112px;
+   width: 112px;
 }
 #profile p {
   font-weight: 500;
