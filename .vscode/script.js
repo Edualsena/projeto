@@ -3,7 +3,7 @@ function toggleMode() {
   html.classList.toggle("light")
 
   // pegar a tag img
-  const img = document.queryselecto("#profile img")
+  const img = document.querySelector("#profile img")
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
@@ -12,6 +12,4 @@ function toggleMode() {
     //se tiver sem light mode , mater a imagem normal
     img.setAttribute("src", "./assets/perfil-dark.jpg")
   }
-
-  
 }
